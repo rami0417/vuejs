@@ -1,0 +1,64 @@
+[
+  {
+    "link":"/products/",
+    "menuName":"PRODUCTS",
+    "subMenu" : [
+      {
+        "link":"/products/sub1",
+        "menuName":"베쓰"
+      },
+      {
+        "link":"/products/sub2",
+        "menuName":"페이스"
+      },
+      {
+        "link":"/products/sub3",
+        "menuName":"헤어"
+      }
+    ] 
+  },
+  {
+    "link":"/brand/", 
+    "menuName":"BRAND",
+    "subMenu" : [
+      {
+        "link":"/brand/sub1",
+        "menuName":"채러티 팟"
+      },
+      {
+        "link":"/brand/sub2",
+        "menuName":"원재료"
+      }
+    ] 
+  },
+  {
+    "link":"/shops/", 
+    "menuName":"SHOPS",
+    "subMenu" : [
+      {
+        "link":"/shops/sub1",
+        "menuName":"SHOPS_A"
+      }
+    ] 
+  },
+  {
+    "link":"/spa/", 
+    "menuName":"SPA",
+    "subMenu" : [
+      {
+        "link":"/spa/sub1",
+        "menuName":"SPA_A" 
+      }
+    ] 	
+  },
+  {
+    "link":"/event/", 
+    "menuName":"EVENT",
+    "subMenu" : [
+      {
+        "link":"/event/sub1",
+        "menuName":"EVENT_A"
+      }
+    ] 	
+  }
+]

@@ -1,0 +1,102 @@
+#container {margin-bottom:100px;}
+#container.main {margin-bottom:0;}
+.boardWrap {margin:0 auto; width:1180px;}
+.searchArea {margin-bottom:20px; padding:26px 0; background:#f8f8f8;}
+.searchArea select {width:95px; height:40px; font-size:16px; border:1px solid #ccc; background:#fff; vertical-align:middle;}
+.searchArea input {margin:0 28px 0 12px; width:340px; height:36px; border:1px solid #ccc; background:#fff; vertical-align:middle;}
+.searchArea .searchBtn {display:inline-block; width:144px; height:40px; font-size:16px; color:#fff; line-height:44px; background:#000; vertical-align:middle;}
+
+.boardWrap .boardNotice table {width:100%; border-top:1px solid #000; border-collapse:collapse;}
+.boardWrap .boardNotice table th {padding:15px 0; font-size:14px; color:#8f8f8f; border-bottom:1px solid #e7e7e7;}
+.boardWrap .boardNotice table td {padding:15px 0; font-size:14px; color:#acacac; border-bottom:1px solid #e7e7e7; background:#f7f7f7;}
+.boardWrap .boardNotice table td.notice span {display:inline-block; width:28px; height:18px; font-size:12px; color:#fff; line-height:18px; background:#fe5133;}
+.boardWrap .boardNotice table td.title {color:#3e3d3c; font-weight: bold; text-align:left;}
+.boardWrap .boardList {margin-top:20px;}
+.boardWrap .boardList ul {margin:0; padding:0;}
+.boardWrap .boardList ul:after {content:""; display:block; clear: both;}
+.boardWrap .boardList ul li {float:left; margin:115px 20px 0 0; width:380px; height:340px; text-align:center; overflow:hidden;}
+.boardWrap .boardList ul li:nth-child(1),
+.boardWrap .boardList ul li:nth-child(2),
+.boardWrap .boardList ul li:nth-child(3){margin-top:0;}
+.boardWrap .boardList ul li:nth-child(3n) {margin-right:0;}
+.boardWrap .boardList ul li a {display:block;}
+.boardWrap .boardList ul li .thum {display:block;}
+.boardWrap .boardList ul li img {width:100%;}
+.boardWrap .boardList ul li .txtArea {margin-top:55px; font-size:20px; color:#000; font-weight:bold;}
+
+/* paging */
+.paging {padding: 20px 0 0; text-align: center;}
+.paging li {display: inline-block;  margin: 0 2px; border: 1px solid #fff;}
+.paging li a,
+.paging li span {display: block; padding: 4px 10px 1px; height: 21px;  font-size:14px; color:#1e1e1e; text-align: center;}
+.paging .active {color: #3e3d3c; border: 1px solid #fff; text-decoration:underline;}
+.paging .front-page {width: 27px; border: 1px solid #e0e0e0; background: #ffffff; text-indent: -9999px;}
+
+/* product */
+#productWrap .sub_visual>div {height:500px;background:url('http://www.lush.co.kr/data/editor/goods/190628/pc_cate_mask_192614.jpg') no-repeat 50% 0;}
+#productWrap .sub_visual.bath>div {height:500px;background:url('http://www.lush.co.kr/data/skin/front/howling/img/etc/pc_cate_bath.jpg') no-repeat 50% 0;}
+#productWrap .sub_visual.face>div {height:500px;background:url('http://www.lush.co.kr/data/skin/front/howling/img/etc/pc_cate_face.jpg') no-repeat 50% 0;}
+#productWrap .sub_visual.hair>div {height:500px;background:url('http://www.lush.co.kr/data/skin/front/howling/img/etc/pc_cate_hair.jpg') no-repeat 50% 0;}
+#productWrap .sub_visual>div .subv_txt01 {padding-top:190px; margin:0; font-size:68px; color:#fff; font-weight:bold; text-align:center; letter-spacing:0.5em;} 
+#productWrap .sub_visual>div .subv_txt02 {font-size:26px; color:#fff; letter-spacing:0.2em;} 
+
+#productWrap .contents {margin:0 auto 100px auto; width:1180px;} 
+#productWrap .contents h2 {margin-top:50px; padding-bottom: 15px; color: #333; line-height: 30px; font-size: 28px; font-weight:bold; text-align:left; border-bottom:2px solid #000;} 
+#productWrap .list:after {content:""; display:block; clear:both;}
+#productWrap .list li {float:left; width:25%;}
+#productWrap .list li .txt .prdName {display: block; padding:0; color: #333; line-height: 22px; font-size: 16px; max-height: 40px; text-overflow: ellipsis; overflow: hidden;}
+#productWrap .list li .txt .shotdesc {display: block; padding: 0; color: #8f8f8f; line-height: 20px; max-height: 20px; font-size: 14px;text-overflow: ellipsis;overflow: hidden;}
+#productWrap .list li .prdinfo {position:relative; padding-top:30px;}
+#productWrap .list li .prdinfo .conditions {position: absolute; top: 0; left: 0; width: 100%;text-align: center;}
+
+/* brand */
+.brand_visual{height:500px;text-align:center;color:#fff;background:url('http://www.lush.co.kr/data/skin/front/howling/img/etc/brand_bg.jpg') no-repeat 50% 0; }
+.brand_visual .b_txt01{padding:170px 0 26px;font-size:22px;font-family : "notokrL";letter-spacing:2px;line-height:26px;}
+.brand_visual .b_txt02{ font-size:42px;font-family : "notokrB";line-height:46px;}
+.brand_visual .b_txt03{margin-top:24px;font-size:18px;line-height:32px;font-family : "notokrL";}
+.company_content{width:1180px;margin:0 auto;}
+.company_content dl{padding-top:120px;width:845px;margin:0 auto;overflow:hidden;color:#000;}
+.company_content dl dt{padding-bottom:20px;text-align:center;font-size:24px;}
+.company_content dl dt span{display:block;padding-top:16px;}
+.company_content dl dd{float:left;width:355px;font-size:18px;line-height:34px;font-weight:normal;}
+.company_content dl dd.dd02{float:right;}
+.company_content dl dd p{padding-top:70px; }
+.company_content dl dd b{font-family : "notokrB";font-weight:normal;}
+
+/* spa */
+.spa_visual{height:500px;text-align:center;color:#fff;background:url('http://www.lush.co.kr/data/skin/front/howling/img/banner/slider_3919499068/ac3a4b55cf2b5c5bc3bd16828f5d024b_55424.jpg') no-repeat 50% 0; }
+
+.spa_main_container{width:1180px; margin:50px auto 0 auto; padding:;}
+.spa_banners{position:relative;}
+.spa_banners .banner_spa_use{position:absolute;top:0;left:0;width:280px;height:340px;display:table;border-collapse:collapse;border:5px solid #333;box-sizing:border-box;text-align:left;}
+.spa_banners .banner_spa_use a{display:table-cell;padding:30px 25px 0 25px;}
+.spa_banners .banner_spa_use dt span{display:block;font-size:17px;color:#bfbfbf; }
+.spa_banners .banner_spa_use dt em{display:block;font-size:40px;line-height:50px;font-family : "notokrB";color:#333;font-style:normal;}
+.spa_banners .banner_spa_use dd{margin:0; padding-top:15px;font-size:16px;line-height:24px;color:#333;}
+.spa_banners .banner_spa_use dd span{display:block;padding-top:50px;font-size:14px;color:#333;}
+.spa_banners ul{ text-align:right;}
+.spa_banners ul li{display:inline-block;margin-left:20px;} 
+
+#spaWrap .contents {margin:0 auto 100px auto; width:1180px;} 
+#spaWrap .contents h2 {margin-top:50px; padding-bottom: 15px; color: #333; line-height: 30px; font-size: 28px; font-weight:bold; text-align:left; border-bottom:2px solid #000;} 
+#spaWrap .list:after {content:""; display:block; clear:both;}
+#spaWrap .list li {float:left; width:25%;}
+#spaWrap .list li .txt .prdName {display: block; padding:0; color: #333; line-height: 22px; font-size: 16px; max-height: 40px; text-overflow: ellipsis; overflow: hidden;}
+#spaWrap .list li .txt .shotdesc {display: block; padding: 0; color: #8f8f8f; line-height: 20px; max-height: 20px; font-size: 14px;text-overflow: ellipsis;overflow: hidden;}
+#spaWrap .list li .prdinfo {position:relative; padding-top:30px;}
+#spaWrap .list li .prdinfo .conditions {position: absolute; top: 0; left: 0; width: 100%;text-align: center;}
+
+/*shops*/
+#shopWrap {margin:100px auto 0 auto; width:1180px;}
+.shop_tit{font-family:'HelveticaNeue-Heavy', 'notokrB';text-align:center;color:#000;font-size:42px;line-height:48px;font-weight:bold;}
+.shop_desc{padding:25px 0 80px;font-size:16px;color:#333;text-align:center;}
+
+#shopWrap ul {overflow:hidden;width:100%;}
+#shopWrap ul li{float:left; width:275px; margin-right:26px !important; padding-bottom:50px;}
+#shopWrap ul li:nth-child(4n){ float:right;margin-right:0  !important;}
+#shopWrap ul li .space{padding:0;}
+#shopWrap ul li .txt a strong{font-size:20x; color:#000;}
+
+
+/* event */
+#eventWrap {margin-top:100px;}

@@ -14,12 +14,57 @@ export default new Router({
       component: Home
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-    }
+      path: '/products/',
+      name: 'Product',
+      component: () => import('./views/products/List.vue'),
+    },
+    {
+      path: '/products/sub1',
+      component: () => import('./views/products/sub1/List.vue'),
+    },
+    {
+      path: '/products/sub2',
+      component: () => import('./views/products/sub2/List.vue'),
+    },
+    {
+      path: '/products/sub3',
+      component: () => import('./views/products/sub3/List.vue'),
+    },
+    {
+      path: '/brand/',
+      component: () => import('./views/brand/Brand.vue')
+    },
+    {
+      path: '/brand/sub1',
+      component: () => import('./views/brand/sub1/Brand.vue')
+    },
+    {
+      path: '/brand/sub2',
+      component: () => import('./views/brand/sub2/Brand.vue')
+    },
+    {
+      path: '/shops/',
+      component: () => import('./views/shops/Shops.vue')
+    },
+    {
+      path: '/shops/sub1',
+      component: () => import('./views/shops/sub1/Shops.vue')
+    },
+    {
+      path: '/spa/',
+      component: () => import('./views/spa/Spa.vue')
+    },
+    {
+      path: '/spa/sub1',
+      component: () => import('./views/spa/sub1/Spa.vue')
+    },
+    {
+      path: '/event/',
+      component: () => import('./views/event/List.vue')
+    },
+    {
+      path: '/event/sub1',
+      component: () => import('./views/event/sub1/List.vue')
+    }  
   ]
 })
